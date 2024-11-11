@@ -30,6 +30,6 @@ app.use((req, res, next)=>{
 const port = 8080;
 const ip = "0.0.0.0"
 // Arrancando el servidor
-server.listen(port, ip, () => {
+app.listen(port, ip, () => {
   console.log(`🤖 Sirviendo en http://localhost:${port}`);
 });
